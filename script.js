@@ -76,21 +76,32 @@ const totalDistance = 1500;
 
 // Your car’s fuel efficiency is as follows:
 // At 55 miles per hour, you get 30 miles per gallon.
-let 55milesHour = 30;
+let mph55_mpg = 30;
 // At 60 miles per hour, you get 28 miles per gallon.
-let 60milesHour = 28;
+let mph60_mpg = 28;
 // At 75 miles per hour, you get 23 miles per gallon.
-let 75milesHour = 23;
+let mph75_mpg = 23;
 
 // You have a fuel budget of $175.
 const budget = 175;
 
 // The average cost of fuel is $3 per gallon.
-let averageCost;
+let averageCost = 3;
 
 
 // Set up a program to answer the following questions:
 // How many gallons of fuel will you need for the entire trip?
+let gallons_55mph = totalDistance / mph55_mpg;
+console.log(gallons_55mph);
+let gallons_60mph = totalDistance / mph60_mpg;
+console.log(gallons_60mph);
+let gallons_75mph = totalDistance / mph75_mpg;
+console.log(gallons_75mph);
 
 // Will your budget be enough to cover the fuel expense?
+
+
 // How long will the trip take, in hours?
+
+// Compare the results when traveling at an average of 55, 60, and 75 miles per hour.
+// Which makes the most sense for the trip?
