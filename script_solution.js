@@ -57,10 +57,10 @@ console.log(`${isFirstLargerThanLast}: first number is larger than the last.`);
 // Accomplish the following arithmetic chain:
     
     // Subtract the first number from the second number.
-    let step1 = n2 - n1;
+    let num = n2 - n1
     // console.log(`${n2} - ${n1} = ${step1}`);
     // Multiply the result by the third number.
-    let step2 = step1 * n3;
+    let num
     // console.log(step2);
     // Find the remainder of dividing the result by the fourth number.
     let step3 = step2 % n4;
@@ -101,8 +101,7 @@ let gallons_75mph = totalDistance / mph75_mpg;
 console.log(gallons_75mph);
 
 // Will your budget be enough to cover the fuel expense?
-let gasExpense_55mph = gallons_55mph*3;
-console.log(gasExpense_55mph)
+
 
 // How long will the trip take, in hours?
 
